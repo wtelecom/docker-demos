@@ -1,5 +1,8 @@
-# What it inside
+# What it is
 This is a simple example of a dockerized web app in python.
+
+# Requirements
+- docker: https://docs.docker.com/installation/
 
 # How to Execute
 - Build the image: `docker build -t my-web-app .`
@@ -7,4 +10,4 @@ This is a simple example of a dockerized web app in python.
 - Inspect inside the container: `docker exec -ti app-instance /bin/bash`
 
 # Use the app
-Browse http://< docker-host-ip >
+Browse `http://< docker-host-ip >`
