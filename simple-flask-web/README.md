@@ -7,4 +7,4 @@ This is a simple example of a dockerized web app in python.
 - Inspect inside the container: `docker exec -ti app-instance /bin/bash`
 
 # Use the app
-Browse http://<docker-host-ip>
+Browse http://< docker-host-ip >
